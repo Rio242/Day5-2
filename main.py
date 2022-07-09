@@ -7,9 +7,15 @@ print(student_scores)
 
 #Write your code below this row 👇
 
+#initilize new variable
+high_score = 0
+
+# for loop to sort through student scores
 for score in student_scores:
-  print(score)
-
-
-
-print(f"The highest score in the list is {}")
+  # if current score is greater than previous that value is stored until end of list
+  if score > high_score:
+    high_score = score
+    
+# print out final highest score 
+print(f"The highest score in the list is {high_score}")
+  
