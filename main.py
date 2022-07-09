@@ -7,6 +7,9 @@ print(student_scores)
 
 #Write your code below this row 👇
 
+for score in student_scores:
+  print(score)
 
 
 
+print(f"The highest score in the list is {}")
